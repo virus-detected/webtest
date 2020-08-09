@@ -1,0 +1,203 @@
+1. Who is the father of PHP?
+	A. Rasmus Lerdorf		B. Willam Makepiece
+	C. Drek Kolkevi		D. List Barely
+
+Answer-  Option A 
+                Rasmus Lerdorf
+
+
+
+2. Which of the looping statements is/are supported by PHP?
+i) for loop
+ii) while loop
+iii) do-while loop
+iv) foreach loop
+
+	A. (i) and (ii)		B. (i), (ii) and (iii)
+	C. All of the mentioned	D. None of the mentioned
+
+Answer-  All of the mentioned
+
+
+
+3. Which version of PHP introduced Try/catch Exception?
+	A. PHP 4			B. PHP 5
+	C. PHP 5.3		D. PHP 6
+answer- PHP 5
+
+4. Which of the following php statement/statements will store 111 in variable num?
+i) int $num = 111;
+ii) int mum = 111;
+iii) $num = 111;
+iv) 111 = $num;
+
+	A. Both (i) and (ii)		B. All of the mentioned.
+	C. Only (iii)		D. Only (i)
+answer- Only (iii)		
+
+
+5. PHP recognizes constructors by the name.
+	A. classname()		B. _construct()
+	C. function _construct()	D. function __construct()
+Answer= D. function __construct()
+
+6.  Which of the functions is used to sort an array in descending order?
+	A. sort()			B. asort()
+	C. rsort()			D. dsort()
+Answer=  C. rsort()	
+
+7. Which in-built function will add a value to the end of an array?
+	A. array_unshift()		B. into_array()
+	C. inend_array()		D. array_push()
+Answer= D. array_push()
+
+8. What will be the output of the following PHP code?
+   < ?php 
+     $state = array ("Karnataka", "Goa", "Tamil Nadu",
+     "Andhra Pradesh");
+      echo (array_search ("Tamil Nadu", $state) );
+    ?>
+	A. True			B. 1	
+	C. False			D. 2
+Answer  = D. 2
+
+9. 9. What will be the output of the following PHP code?
+    < ?php 
+       $fruits = array ("apple", "orange", "banana");
+       echo (next($fruits));	
+       echo (next($fruits));
+    ?>
+	A. orangebanana		B. appleorange
+	C. orangeorange		D. appleapple
+
+10.  Which function can be used to move the pointer to the previous array position?
+	A. last()			B. before()
+	C. prev()			D. previous()
+
+Answer ==  C. prev()	
+
+11.   What will be the output of the following PHP code?
+  <?php 
+     $fruits = array ("apple", "orange", array ("pear", "mango"),
+     "banana");
+     echo (count($fruits, 1));
+  ?>
+	A. 3			B. 4
+	C. 5			D. 6
+Answer-  D. 6
+
+12. What will be the output of the following PHP code?
+    < ?php 
+       $fruits = array ("apple", "mango", "peach", "pear",
+       "orange");
+       $subset = array_splice ($fruits, 2);
+        print_r ($fruits);
+    ?>
+	A. Error				B. Array ( [0] => apple [1] => mango [2] => peach )
+	C. Array ( [0] => apple [1] => mango )	D. Array ( [0] => pear [1] => orange )
+
+Answer = C. Array ( [0] => apple [1] => mango )
+
+
+
+13.  What will be the output of the following PHP code ?
+   < ?php 
+       $hello = "Hello World";
+       $bye = "Bye";
+       echo $hello;"$bye";
+   ?>
+	A. Hello World			B. Bye
+	C. Hello worldBye			D. Error
+answer-  A. Hello World
+
+
+14.  Which function is used to remove all HTML tags from a string passed to a form?
+	A. remove_tags()			B. strip_tags()
+	C. tags_strip()			D. tags_remove()
+
+answer-  B. strip_tags()
+
+
+15. To validate an e-mail address, which flag is to be passed to the function filter_var()?
+	A. FILTER_VALIDATE_EMAIL		B. FILTER_VALIDATE_MAIL
+	C. VALIDATE_EMAIL		D. VALIDATE_MAIL
+
+Answer- A. FILTER_VALIDATE_EMAIL	
+
+
+16. Say we have two compare two strings which of the following function/functions can you use?
+      (i) strcmp()
+      (ii) strcasecmp()
+      (iii) strspn()
+      (iv) strcspn()
+	A. (i) and (ii)			B. (iii) and (iv)
+	C. None of the mentioned		D. All of the mentioned
+
+Answer -  D. All of the mentioned
+
+
+17. Is it possible to submit a form with out a submit button?
+
+	(A) Yes			(B) No
+
+Answer = (A) Yes	
+
+18. what will be the output of below code ?
+     <?php 
+     function zz(& $x) 
+     { 
+     $x=$x+5; 
+     } 
+     ?> 
+     <? php
+     $x=10; 
+     zz($x); 
+     echo $x;
+     ?> 
+	(A) 0			(B) 5
+	(C) 10			(D) 15
+
+Answer- (D) 15
+
+
+19.  what will be the ouput of below code ?
+         define("x","5"); 
+         $x=x+10; 
+         echo x; 
+         ?>
+	(A) Error			(B) 5
+	(C) 10			(D) 15
+
+Answer- (B) 5
+
+20.Which of the following method sends input to a script via a URL? 
+	(A) Get 			(B) Post
+	(C) Both			(D) None
+Answer- (A) Get 	 
+
+
+
+21. mysql_connect( ) does not take following parameter.
+ 	(A) database name		(B) database host
+	(C) user ID		(D) password
+Answer : database name
+
+22. : What will be displayed in a browser when the following PHP code is executed:
+        <?php
+        for ($counter = 15; $counter != 10; $counter--){
+        echo "Hello ";
+        }
+       ?>
+	(A) Hello Hello		(B) Hello Hello Hello
+	(C) Hello Hello Hello Hello	(D) Hello Hello Hello Hello Hello	
+Answer : Hello Hello Hello Hello Hello
+
+
+
+
+
+
+
+
+
+

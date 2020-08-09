@@ -1,0 +1,72 @@
+<html>
+<head>
+	    <link rel="stylesheet" href="time_css.css">
+
+</head>
+<body>
+	<table class="countdowncontainer">
+		<tr>
+			<td colspan="4" class="info">countdown</td>
+		</tr>
+		<tr>
+			<td id="days">120</td>
+			<td id="hours">4</td>
+			<td id="minutes">12</td>
+			<td id="seconds">22</td>
+		</tr>
+		<tr>
+			<td>days</td>
+			<td>hours</td>
+			<td>minutes</td>
+			<td>seconds</td>
+			
+		</tr>
+		
+		
+		
+	</table>
+	<script>
+	function countdown(){
+		
+		var now = new date();
+		var eventdate =  new date(2016,11,25);
+		
+		var currenttime = now.getTime();
+		
+				var eventTime = eventTime.getTime();
+				var remTime = eventTime - currenttime;
+				
+					var s = math.floor(remTime / 1000);
+					var m = math.floor(s / 60);
+					var h = math.floor(m / 60);			   
+					var d = math.floor(h / 24);	
+					
+					
+				h%=24;
+				m%=24;
+				s%=60;
+				h=(h<10) ? "0" + h : h;
+				m=(m<10) ? "0" + m : m;
+				s=(s<10) ? "0" + s : s;
+				
+				document.getElementByID("days").textContent = d;
+				document.getElementByID("days").innerText = d;
+				
+				document.getElementByID("hours").textContent = h;
+				document.getElementByID("minutes").textContent = m;
+				document.getElementByID("seconds").textContent = s;
+				setTimeout(coundown,1000);
+
+				
+
+				
+
+	}
+	
+	
+	
+	
+	</script>
+
+</body>
+</html>
